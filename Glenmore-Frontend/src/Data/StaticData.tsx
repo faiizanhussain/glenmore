@@ -13,8 +13,8 @@ export const Content = {
       "Glenmore Consulting is an international consulting firm having a rich history of delivering strategic IT solutions to government, public and private sector customers from across the globe.",
     Text: "Founded by a team of seasoned professionals with decades of combined experience in this space, our company was built on the belief that technology should empower businesses to achieve excellence to excel in the enterprise world, while fostering business resilience and compliance culture. We are dedicated to providing IT advisory & consulting services and solutions that not only meet your current needs but also prepare you for the challenges of tomorrow.",
 
-    Features: {
-      UnmatchedExpertise: {
+    Features: [
+      {
         Image: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ export const Content = {
         link: "#",
       },
 
-      InnovativetotheCore: {
+      {
         Image: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ export const Content = {
         link: "#",
       },
 
-      ClientCentric: {
+      {
         Image: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +77,7 @@ export const Content = {
         link: "#",
       },
 
-      Execellence: {
+      {
         Image: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -98,7 +98,7 @@ export const Content = {
         link: "#",
       },
 
-      Integrity: {
+      {
         Image: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -118,7 +118,7 @@ export const Content = {
         Text: "We uphold the highest ethical standards and transparency in all our interactions.",
         link: "#",
       },
-      Collaboration: {
+      {
         Image: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -138,7 +138,7 @@ export const Content = {
         Text: "We believe that collaboration is key to success and we work closely with our clients, as true partners.",
         link: "#",
       },
-    },
+    ],
   },
 
   Services_Section: {
@@ -147,8 +147,8 @@ export const Content = {
       "IT Consulting Services and Solutions for Governments, Public and Private Sector Clients from across various industries around the world.",
     Text: "At Glenmore Consulting, we offer a comprehensive suite of services designed to empower your organization, enhance your IT capabilities, and drive sustainable success. Our commitment to excellence and innovation ensures that we deliver results that truly matter. Explore our range of services.",
 
-    Features: {
-      "IT Audit & Assurance Services": {
+    Services: [
+      {
         Image:
           "https://maxwellfrank.co.nz/glenmore/wp-content/uploads/2023/11/Rectangle-34.png",
         Title: "IT Audit & Assurance Services",
@@ -156,7 +156,7 @@ export const Content = {
         link: "#",
       },
 
-      "Capacity Building and Training Services": {
+      {
         Image:
           "https://maxwellfrank.co.nz/glenmore/wp-content/uploads/2023/11/Rectangle-34-1.png",
         Title: "Capacity Building and Training Services",
@@ -164,7 +164,7 @@ export const Content = {
         link: "#",
       },
 
-      "IT Services Management Consultancy": {
+      {
         Image:
           "https://maxwellfrank.co.nz/glenmore/wp-content/uploads/2023/11/Rectangle-34-2.png",
         Title: "IT Services Management Consultancy",
@@ -172,7 +172,7 @@ export const Content = {
         link: "#",
       },
 
-      "Enterprise IT Governance, Risk, and Compliance Advisory": {
+      {
         Image:
           "https://maxwellfrank.co.nz/glenmore/wp-content/uploads/2023/11/Rectangle-35.png",
         Title: "Execellence",
@@ -180,14 +180,14 @@ export const Content = {
         link: "#",
       },
 
-      "Benchmarking Advisory on IT Processes": {
+      {
         Image:
           "https://maxwellfrank.co.nz/glenmore/wp-content/uploads/2023/11/Rectangle-34-5.png",
         Title: "Benchmarking Advisory on IT Processes",
         Text: "Our benchmarking and best practices advisory services are tailored to suit your industry and goals. We benchmark your performance against industry best practices, identify opportunities for improvement in operational efficiency and effectiveness, and guide you towards meeting industry standards",
         link: "#",
       },
-    },
+    ],
   },
 
   AboutUs_Section: {
