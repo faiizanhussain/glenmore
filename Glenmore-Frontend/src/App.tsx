@@ -7,6 +7,7 @@ import Services from "./UI Components/Services";
 import Hero_Section from "./UI Components/Hero";
 import Features from "./UI Components/Features";
 import About from "./UI Components/About";
+import Footer from "./UI Components/Footer";
 
 // import { Content } from "./Data/StaticData";
 // import ImageBox from "./FunctionalComponents/ImageBox";
@@ -21,6 +22,7 @@ function App() {
       <Features />
       <Services />
       <About />
+      <Footer />
     </>
   );
 }

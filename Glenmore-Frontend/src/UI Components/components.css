@@ -2,13 +2,12 @@
   font-family: "General Sans";
 }
 
-.img {
+/* .img {
   background: url("X:\Imran Bhai\Glenmore\Glenmore-Frontend\src\assets\hero.png")
     no-repeat center center/cover fixed;
-}
+} */
 
 .hero {
   background-color: black;
-  background: url("X:\Imran Bhai\Glenmore\Glenmore-Frontend\src\assets\hero.png")
-    no-repeat center center/cover;
+  background: url("./src/assets/hero.png") no-repeat center center/cover;
 }
