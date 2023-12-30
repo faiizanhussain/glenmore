@@ -18,8 +18,8 @@ function ImageBox({ Image, Title, Text }: Props) {
           />
         </div>
         <div className="py-4">
-          <div className="font-bold text-3xl mb-2">{Title}</div>
-          <p className="text-gray-700 text-base">{Text}</p>
+          <div className="font-bold text-2xl mb-2">{Title}</div>
+          <p className="text-md text-gray-700 text-base">{Text}</p>
           <Button Text="Explore Services" Link="#" />
         </div>
       </div>

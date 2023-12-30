@@ -1,5 +1,11 @@
 export const Content = {
-  MenuItems: ["Home", "About", "Services", "Contact", "Our Journey"],
+  MenuItems: [
+    { Title: "Home", Link: "#" },
+    { Title: "About", Link: "#" },
+    { Title: "Services", Link: "#" },
+    { Title: "Contact", Link: "#" },
+    { Title: "Our Journey", Link: "#" },
+  ],
 
   Hero_Section: {
     Title:
@@ -15,125 +21,41 @@ export const Content = {
 
     Features: [
       {
-        Image: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6">
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z"
-            />
-          </svg>
-        ),
+        Image: "./src/assets/fingerprint.png",
         Title: "Unmatched Expertise",
         Text: "Our team is comprised of the best international IT experts, consultants, and seasoned advisors with a multicultural & diverse background and a deep understanding of multiple industries’ intricacies. We leverage this expertise to deliver tailored solutions that drive tangible results.",
         link: "#",
       },
 
       {
-        Image: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6">
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z"
-            />
-          </svg>
-        ),
+        Image: "./src/assets/hub.png",
         Title: "Innovative to the Core",
         Text: "We are passionate about innovation and technology. Our team is constantly on the lookout for the latest trends and developments in the IT world to ensure that our clients are always ahead of the curve.",
         link: "#",
       },
 
       {
-        Image: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6">
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z"
-            />
-          </svg>
-        ),
+        Image: "./src/assets/adjust.png",
         Title: "Client Centric",
         Text: "We prioritize our clients' success above all else. Your goals become our goals, and we work tirelessly to exceed your expectations, offering personalized solutions that align with your unique vision.",
         link: "#",
       },
 
       {
-        Image: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6">
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z"
-            />
-          </svg>
-        ),
+        Image: "./src/assets/new_releases.png",
         Title: "Execellence",
         Text: "We strive for excellence in everything we do, from the quality of our services to the relationships we build with our clients.",
         link: "#",
       },
 
       {
-        Image: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6">
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z"
-            />
-          </svg>
-        ),
+        Image: "./src/assets/spa.png",
         Title: "Integrity",
         Text: "We uphold the highest ethical standards and transparency in all our interactions.",
         link: "#",
       },
       {
-        Image: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6">
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z"
-            />
-          </svg>
-        ),
+        Image: "./src/assets/adjust.png",
         Title: "Collaboration",
         Text: "We believe that collaboration is key to success and we work closely with our clients, as true partners.",
         link: "#",
@@ -191,6 +113,10 @@ export const Content = {
   },
 
   AboutUs_Section: {
+    Images: [
+      "https://picsum.photos/seed/picsum/200/300",
+      "https://picsum.photos/seed/picsum/200/300",
+    ],
     Title: "A journey towards IT excellence and transformation",
     Sub_Title: "Let's Begin the Journey",
     Text: "We invite you to join us on this journey towards IT excellence and transformation. Discover what sets us apart. Contact us today to explore how we can help you achieve your business goals!",
