@@ -1,10 +1,10 @@
 import { Content } from "../Data/StaticData";
 import ImageBox from "../FunctionalComponents/ImageBox";
 
-const Services = () => {
+const Services: React.FC = () => {
   return (
     <>
-      <div className="w-8/12 mx-auto flex justify-left flex-wrap">
+      <div className="w-8/12 mx-auto flex justify-left flex-wrap" id="services">
         <div className="my-10">
           <h3 className="text-2xl font-normal text-red-600 mb-2">
             {Content.Services_Section.Sub_Title}

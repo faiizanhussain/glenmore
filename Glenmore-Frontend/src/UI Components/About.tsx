@@ -5,12 +5,14 @@ import "./components.css";
 function About() {
   return (
     <>
-      <div className="w-8/12 flex mx-auto justify-between content-center space-x-10 py-10">
-        <div className="w-10/12 flex space-x-4 overflow-hidden">
+      <div
+        className="w-8/12 flex mx-auto justify-between content-center space-x-10 py-10"
+        id="about">
+        <div className="w-11/12 flex space-x-4 overflow-hidden">
           <img className="w-full" src="./src/assets/Rectangle 8.png" alt="" />
           <img className="w-full" src="./src/assets/Rectangle 5.png" alt="" />
         </div>
-        <div className="w-full flex flex-col justify-center">
+        <div className="w-full flex flex-col justify-center px-20">
           <h3 className="text-2xl font-normal text-red-600 mb-2">
             {Content.AboutUs_Section.Sub_Title}
           </h3>

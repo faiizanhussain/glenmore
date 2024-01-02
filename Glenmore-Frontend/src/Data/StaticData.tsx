@@ -1,10 +1,9 @@
 export const Content = {
   MenuItems: [
-    { Title: "Home", Link: "#" },
-    { Title: "About", Link: "#" },
-    { Title: "Services", Link: "#" },
-    { Title: "Contact", Link: "#" },
-    { Title: "Our Journey", Link: "#" },
+    { Title: "Home", Link: "#hero", Key: "1" },
+    { Title: "Why Us?", Link: "#features", Key: "2" },
+    { Title: "Services", Link: "#services", Key: "3" },
+    { Title: "About", Link: "#about", Key: "4" },
   ],
 
   Hero_Section: {
@@ -130,7 +129,7 @@ export const Content = {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
-            fill="White"
+            fill="#FF193B"
             className="w-5 h-5">
             <path
               fill-rule="evenodd"
@@ -147,7 +146,7 @@ export const Content = {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
-            fill="White"
+            fill="#FF193B"
             className="w-5 h-5">
             <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
             <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
@@ -161,7 +160,7 @@ export const Content = {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
-            fill="white"
+            fill="#FF193B"
             className="w-5 h-5">
             <path
               fill-rule="evenodd"

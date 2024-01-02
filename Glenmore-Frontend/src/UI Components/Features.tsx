@@ -4,7 +4,7 @@ import IconBox from "../FunctionalComponents/IconBox";
 const Features = () => {
   return (
     <>
-      <div className="w-8/12 mx-auto flex justify-left flex-wrap">
+      <div className="w-8/12 mx-auto flex justify-left flex-wrap" id="features">
         <div className="my-10">
           <h3 className="text-2xl font-normal text-red-600 mb-2">
             {Content.Features_Section.Sub_Title}

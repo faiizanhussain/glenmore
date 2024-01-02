@@ -1,7 +1,8 @@
 import { Content } from "../Data/StaticData";
 import { Button } from "../FunctionalComponents/Button";
+import { HashLink as Link } from "react-router-hash-link";
 
-export const Header = () => {
+const Header = () => {
   return (
     <>
       <div className="w-full bg-gray-800">
@@ -76,7 +77,7 @@ export const Header = () => {
           <div className="nav-links flex space-x-5 py-0 ">
             {Content.MenuItems.map((item: any) => (
               <h1 className="text-gray-700 text-md self-center hover:text-red-600 ">
-                <a href={item.Link}>{item.Title}</a>
+                <Link to={item.Link}>{item.Title}</Link>
               </h1>
             ))}
           </div>
@@ -88,3 +89,5 @@ export const Header = () => {
     </>
   );
 };
+
+export default Header;
