@@ -1,5 +1,3 @@
-import { Button } from "./Button";
-
 interface Props {
   Icon: string;
   Title: string;

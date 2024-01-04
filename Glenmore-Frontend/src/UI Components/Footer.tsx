@@ -13,7 +13,11 @@ function Footer() {
             </h1>
             <div className="text-white py-3 space-y-2">
               {Content.Footer_Section.Footer.map((item: any) => (
-                <IconText Icon={item.Icon} Title={item.Title} />
+                <IconText
+                  key={item.Title}
+                  Icon={item.Icon}
+                  Title={item.Title}
+                />
               ))}
             </div>
           </div>
@@ -29,7 +33,7 @@ function Footer() {
           />
           <div className="w-4/5 leading-7 text-center">
             {Content.Footer_Section.Quick_Links.map((item: any) => (
-              <a href={item.Link} className="text-white px-3">
+              <a key={item.Title} href={item.Link} className="text-white px-3">
                 {item.Title}
               </a>
             ))}

@@ -18,7 +18,7 @@ const Services: React.FC = () => {
           </p>
         </div>
         {Content.Services_Section.Services.map((item: any) => (
-          <div className="w-1/3 pr-10 pb-5">
+          <div key={item.Title} className="w-1/3 pr-10 pb-5">
             <ImageBox Image={item.Image} Title={item.Title} Text={item.Text} />
           </div>
         ))}
